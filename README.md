@@ -121,3 +121,16 @@
 　
     * 利用者はこのフォントを使用した制作物を有償・無償を問わず自由に公開・配布することが出来ます。 　
     * このフォントに対して SIL Open Font License 1.1 で定められた制限のもとで再配布や改変を行うことが出来ます。
+
+---
+
+## Vedic Astrology Analysis System
+
+A basic script is available under `vedic/vedic_chart.py` for calculating sidereal planetary positions using the Swiss Ephemeris. Install the dependency with `pip install pyswisseph` and run the script as follows:
+
+```bash
+python vedic/vedic_chart.py "2024-01-01 12:00" 25.03 121.56
+```
+
+This outputs the degrees of each planet according to the Lahiri ayanamsa.
+
